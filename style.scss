@@ -1,17 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Hind&family=Noto+Sans&display=swap");
 $font-body: "noto sans", "sans-serif";
 
-$color-primary: #394166;
-$color-secondary: #fffcdd;
-$color-tertiary: #1ab9f1;
-$color-quaternary: #fefdf8;
+$color-navy: #394166;
+$color-primary: #fffcdd;
+$color-blue: #1ab9f1;
+$color-secondary: #fefdf8;
 
 * {
   background-color: #fefdf8;
   margin: 0;
   padding: 0;
   font-family: $font-body;
-  color: $color-primary;
+  color: $color-navy;
 }
 
 a:link,
@@ -48,7 +48,7 @@ nav {
   border-radius: 5px;
   font-family: $font-body;
   font-size: 30px;
-  border-color: $color-primary;
+  border-color: $color-navy;
 }
 
 h1 {
@@ -56,5 +56,13 @@ h1 {
 }
 
 #first {
-  color: $color-tertiary;
+  color: $color-blue;
+  padding: 30px;
+}
+
+#phone {
+  display: flex;
+  justify-content: center;
+  padding: 80px;
+  height: 90vh;
 }

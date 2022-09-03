@@ -50,4 +50,12 @@ h1 {
 
 #first {
   color: #1ab9f1;
+  padding: 30px;
+}
+
+#phone {
+  display: flex;
+  justify-content: center;
+  padding: 80px;
+  height: 90vh;
 }
