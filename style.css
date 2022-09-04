@@ -128,3 +128,16 @@ h1 {
   align-items: center;
   padding: 20px;
 }
+
+p {
+  font-size: 25px;
+  font-weight: 300;
+}
+p #bigbold {
+  font-size: 25px;
+  font-weight: bold;
+}
+p #italic {
+  font-style: italic;
+  font-weight: 100;
+}
