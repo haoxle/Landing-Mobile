@@ -58,6 +58,8 @@ h1 {
 #first {
   color: $color-blue;
   padding: 30px;
+  font-size: 50px;
+  font-weight: 7000px;
 }
 
 #phone {
@@ -65,4 +67,71 @@ h1 {
   justify-content: center;
   padding: 80px;
   height: 90vh;
+}
+
+#second {
+  padding: 30px;
+  font-size: 40px;
+  font-weight: 2000px;
+}
+
+#third {
+  color: $color-blue;
+  padding: 30px;
+  font-size: 40px;
+  font-weight: 2000px;
+}
+
+#fourth {
+  padding: 30px;
+  font-size: 30px;
+  font-weight: 100px;
+}
+
+#dadvice,
+#signup {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 60px;
+  background-color: $color-navy;
+  border-radius: 5px;
+  font-family: $font-body;
+  font-size: 30px;
+}
+
+#dad,
+#sign {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+#fifth {
+  padding: 30px;
+}
+
+#sixth,
+#seventh,
+#eigth,
+#ninth {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#foot {
+  width: 100vw;
+  height: 20px;
+  color: $color-navy;
+  font-size: 25px;
+  background-color: $color-primary;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
 }
